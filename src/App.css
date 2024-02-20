@@ -1,0 +1,57 @@
+.container {
+  height: 100%;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  padding-top: 80px;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #f0fff0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+
+#number {
+  color: #f0fff0;
+  font-size: 6rem;
+}
+
+#raffle {
+  background-color: #fff;
+  color: #a020f0;
+  border: 1px solid #fff;
+  border-radius: 25px;
+
+  padding: 0.5rem 5rem;
+  margin-top: 1rem;
+
+  font-weight: 600;
+  font-size: 1.25rem;
+
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+#raffle:hover {
+  background-color: #a020f0;
+  color: #fff;
+}
